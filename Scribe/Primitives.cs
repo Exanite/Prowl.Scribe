@@ -137,8 +137,6 @@ namespace Prowl.Scribe
             settings.StyleSpans.Clear();
             if(_currIdx+1 < _pool.Count) _currIdx++;
         }
-
-        }
     }
 
     public struct GlyphInstance
